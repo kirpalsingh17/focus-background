@@ -41,9 +41,9 @@ body{
 
 .sound-picker button {
   border: none;
-  height: 120px;
-  width: 120px;
-  padding: 30px;
+  height: 10%;
+  width: auto;
+  padding: 10px;
   border-radius: 50%;
 }
 .sound-picker button:nth-child(1) {
