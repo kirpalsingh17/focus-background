@@ -1,6 +1,6 @@
 const song = document.querySelector(".song");
 const play = document.querySelector(".play");
-const replay = document.querySelector(".replay");
+// const replay = document.querySelector(".replay");
 const outline = document.querySelector(".moving-outline circle");
 // const video = document.querySelector(".vid-container video");
 const body = document.querySelector("body");
@@ -22,8 +22,7 @@ timeDisplay.textContent = `${Math.floor(fakeDuration / 60)}:${Math.floor(
 sounds.forEach(sound => {
   sound.addEventListener("click", function() {
     song.src = this.getAttribute("data-sound");
-    body.style.backgroundImage = `url('${this.getAttribute("data-image")}')`; //this.getAttribute("data-image");
-    console.log(this.getAttribute("data-image"));
+    body.style.backgroundImage = `url('${this.getAttribute("data-image")}')`;
     checkPlaying(song);
   });
 });
@@ -32,18 +31,18 @@ play.addEventListener("click", function() {
   checkPlaying(song);
 });
 
-replay.addEventListener("click", function() {
-    restartSong(song);
+// replay.addEventListener("click", function() {
+//     restartSong(song);
     
-  });
+//   });
 
 
-const restartSong = song =>{
-    let currentTime = song.currentTime;
-    song.currentTime = 0;
-    console.log("ciao")
+// const restartSong = song =>{
+//     let currentTime = song.currentTime;
+//     song.currentTime = 0;
+//     console.log("ciao")
 
-}
+// }
 
 timeSelect.forEach(option => {
   option.addEventListener("click", function() {
