@@ -13,3 +13,8 @@ https://kirpalsingh17.github.io/focus-background/
 
 **Server:** Nothing
 
+
+## Screenshots
+
+![App Screenshot](https://github.com/kirpalsingh17/focus-background/blob/main/images/primary-screenshot.png?raw=true)
+
