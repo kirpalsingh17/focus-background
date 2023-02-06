@@ -103,7 +103,9 @@ body{
 .replay{
   display: none;
 }
-
+.calm-river{
+  background-color: #FFFFFF !important;
+}
 
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
